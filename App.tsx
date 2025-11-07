@@ -172,3 +172,11 @@ const App: React.FC = () => {
 };
 
 export default App;
+import React from "react";
+import WelcomeScreen from "./components/WelcomeScreen";
+import "./index.css";
+
+export default function App() {
+  return <WelcomeScreen />;
+}
+
